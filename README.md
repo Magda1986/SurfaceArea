@@ -14,7 +14,7 @@ Define the location of the X Y points in the list.
 
 An additional advantage is the generation of a defined figure on the coordinate system.
 
-![Surface Area](images/surfacearea.jpg)
+![Surface Area](images/area.jpg)
 
 Check how easy it is!
 Just import a basic math library.
