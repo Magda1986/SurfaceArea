@@ -36,6 +36,7 @@ print(f"Area for a figure defined by 10 points {fabs(surface_area/2)}")    #fabs
 # 2P=((X₂+X₁)*(Y2-Y₁))+((X3+X2)*(Y3-Y2))+((X4+X3)*(Y4-Y3))+((X₁+X4)*(Y₁-Y4)) 
 
 
+#dodawanie elementów listy po list współędnych X i Y 
 
 x = [point[0] for point in list]
 y = [point[1] for point in list]
