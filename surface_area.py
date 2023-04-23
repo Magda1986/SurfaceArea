@@ -1,4 +1,5 @@
 from math import *
+import matplotlib.pyplot as plt
 
 list = [
     [10, 12],
@@ -12,6 +13,7 @@ list = [
     [8, 10],
     [8, 12],
 ]
+list.append(list[0])
 
 x2=list[-1][0]          #define the last point X from list
 y2=list[-1][1]          #define the last point Y from list
@@ -27,8 +29,21 @@ for i in list:
     y2=y
     surface_area += A
     
-print(f"Asrea for a figure defined by 10 points {fabs(surface_area/2)}")    #fabs - depending on the direction in which the points in the XY coordinate system are read, the surface comes out positive (+) or negative (-). 
+print(f"Area for a figure defined by 10 points {fabs(surface_area/2)}")    #fabs - depending on the direction in which the points in the XY coordinate system are read, the surface comes out positive (+) or negative (-). 
                                                                             #The absolute value is given in the final result
                                                                 
 # gaussian formula for any quadrilateral
 # 2P=((X₂+X₁)*(Y2-Y₁))+((X3+X2)*(Y3-Y2))+((X4+X3)*(Y4-Y3))+((X₁+X4)*(Y₁-Y4)) 
+
+
+
+x = [point[0] for point in list]
+y = [point[1] for point in list]
+
+
+plt.plot(x, y)
+
+plt.xlabel('X values')
+plt.ylabel('Y values')
+plt.title('Surface Area')
+plt.show()
