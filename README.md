@@ -10,5 +10,11 @@ Calculation of area based on trapezoids with bases parallel to the X axis and tr
 
 ![X and Y axis](image/plot.jpg)
 
+Define the location of the X Y points in the list.
+
+An additional advantage is the generation of a defined figure on the coordinate system.
+
+![Surface Area](surfacearea.jpg)
+
 Check how easy it is!
 Just import a basic math library.
